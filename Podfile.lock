@@ -1,0 +1,34 @@
+PODS:
+  - ComponentedProject/base (0.0.1):
+    - Masonry (~> 1.1.0)
+  - ComponentedProject/green (0.0.1):
+    - ComponentedProject/base
+    - SDWebImage (~> 4.3.2)
+  - ComponentedProject/red (0.0.1):
+    - ComponentedProject/base
+    - ComponentedProject/green
+  - Masonry (1.1.0)
+  - SDWebImage (4.3.2):
+    - SDWebImage/Core (= 4.3.2)
+  - SDWebImage/Core (4.3.2)
+
+DEPENDENCIES:
+  - ComponentedProject/red (from `https://github.com/captain9911/ComponentedProject.git`)
+
+EXTERNAL SOURCES:
+  ComponentedProject:
+    :git: https://github.com/captain9911/ComponentedProject.git
+
+CHECKOUT OPTIONS:
+  ComponentedProject:
+    :commit: 901e04be869707b30a254a558c7415b5e2a3ce90
+    :git: https://github.com/captain9911/ComponentedProject.git
+
+SPEC CHECKSUMS:
+  ComponentedProject: 444f01cf79e08b5eb4f144bef5768c2ca50d3741
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+
+PODFILE CHECKSUM: 0c54dc6b85649ffbc55e1eb1d7a12365f98b23fd
+
+COCOAPODS: 1.3.1
